@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Plant_App_Task_11"

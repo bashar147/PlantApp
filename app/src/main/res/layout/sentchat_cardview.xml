@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="96dp"
+    app:cardCornerRadius="0.5dp"
+    app:cardPreventCornerOverlap="false"
+    android:layout_margin="4dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/sentChat_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg_white"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <TextView
+        android:id="@+id/sentChat_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a text with sssssssssssssssssssssssssssssssssssssss"
+            android:layout_margin="5dp"
+            android:maxWidth="250dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/sentChat_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:16"
+            android:fontFamily="@font/proximanovasemibold"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

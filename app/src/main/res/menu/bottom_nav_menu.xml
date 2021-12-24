@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/ic_chat_24"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="Message Box" />
+
+    <item
+        android:id="@+id/navigation_friend"
+        android:icon="@drawable/ic_friend_list_24"
+        android:title="Friend List" />
+
+    <item
+        android:id="@+id/navigation_request"
+        android:icon="@drawable/ic_person_add_24"
+        android:title="Friend Request" />
+
+</menu>

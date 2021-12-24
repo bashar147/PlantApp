@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="96dp"
+    app:cardCornerRadius="12dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/friendSearch_ProfileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#E1D7D7"
+            android:src="@drawable/ic_baseline_person_24"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/friendSearch_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bashar Obaidat"
+                android:textAlignment="center"
+                android:fontFamily="@font/proximanovasemibold"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/friendSearch_AddButton"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:text="ADD"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="right"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
